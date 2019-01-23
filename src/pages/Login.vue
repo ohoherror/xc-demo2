@@ -79,7 +79,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import '../assets/css/function';
+@import "../assets/css/function";
 
 .login {
   width: 100%;
@@ -153,12 +153,12 @@ export default {
       opacity: 0;
     }
   }
-  .login-from {
+  .login-form {
     width: px2rem(600px);
     height: auto;
     margin: 0 auto;
     .common-div {
-      width: 100px;
+      width: 100%;
       height: px2rem(80px);
       overflow: hidden;
       border-radius: 4px;
@@ -186,6 +186,197 @@ export default {
         color: #fff;
       }
     }
+    .user-name,
+    .user-pasw {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    .login-btn {
+      background-color: #0bd38a;
+      color: #fff;
+      font-size: 20px;
+      text-align: center;
+      height: px2rem(100px);
+      line-height: px2rem(100px);
+      margin-bottom: px2rem(50px);
+      border-radius: 4px;
+    }
+  }
+  .forgets {
+    width: px2rem(600px);
+    height: auto;
+    margin: 0 auto;
+    > a {
+      color: #fff;
+      opacity: 0.2;
+      font-size: 16px;
+      + a {
+        float: right;
+      }
+    }
+  }
+}
+
+.topAct {
+  animation: topAct 3s ease-in-out infinite;
+  -webkit-animation: topAct 3s ease-in-out infinite;
+  -moz-animation: topAct 3s ease-in-out infinite;
+  -o-animation: topAct 3s ease-in-out infinite;
+  -ms-animation: topAct 3s ease-in-out infinite;
+}
+@keyframes topAct {
+  0% {
+    top: px2rem(-100px);
+  }
+  50% {
+    top: px2rem(-30px);
+  }
+  100% {
+    top: px2rem(-100px);
+  }
+}
+@-webkit-keyframes topAct {
+  0% {
+    top: px2rem(-100px);
+  }
+  50% {
+    top: px2rem(-30px);
+  }
+  100% {
+    top: px2rem(-100px);
+  }
+}
+@-moz-keyframes topAct {
+  0% {
+    top: px2rem(-100px);
+  }
+  50% {
+    top: px2rem(-30px);
+  }
+  100% {
+    top: px2rem(-100px);
+  }
+}
+
+.circle-show {
+  animation: circleShow 3s ease-in-out infinite 1s;
+  -webkit-animation: circleShow 3s ease-in-out infinite 1s;
+  -moz-animation: circleShow 3s ease-in-out infinite 1s;
+  -ms-animation: circleShow 3s ease-in-out infinite 1s;
+  -o-animation: circleShow 3s ease-in-out infinite 1s;
+}
+@keyframes circleShow {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes circleShow {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes circleShow {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.circle-show-1 {
+  animation: circleShow1 3s ease-in-out infinite 1.2s;
+  -webkit-animation: circleShow1 3s ease-in-out infinite 1.2s;
+  -moz-animation: circleShow1 3s ease-in-out infinite 1.2s;
+  -ms-animation: circleShow1 3s ease-in-out infinite 1.2s;
+  -o-animation: circleShow1 3s ease-in-out infinite 1.2s;
+}
+@keyframes circleShow1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes circleShow1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes circleShow1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.circle-show-2 {
+  animation: circleShow2 3s ease-in-out infinite 1.4s;
+  -webkit-animation: circleShow2 3s ease-in-out infinite 1.4s;
+  -moz-animation: circleShow2 3s ease-in-out infinite 1.4s;
+  -ms-animation: circleShow2 3s ease-in-out infinite 1.4s;
+  -o-animation: circleShow2 3s ease-in-out infinite 1.4s;
+}
+@keyframes circleShow2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes circleShow2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes circleShow2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 </style>
